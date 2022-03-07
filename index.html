@@ -27,11 +27,20 @@
             <label for="Year" class="form-label" name="Year" id="Year">Year</label>
             <input type="number" class="form-control" id="Year" placeholder="Enter your year of birth here YYYY">
           </div>
-
+          <div class="mb-3">
+            <label for="form-check" for="Gender" name="Gender">Gender</label>
+            <div class="btn-group" role="group" required>
+              <input type="checkbox" class="btn-check" id="Gender" autocomplete="off">
+              <label class="btn btn-outline-primary" for="Gender" id="Gender" autocomplete="off">Male</label>
+              <input type="checkbox" class="btn-check" id="Gender" autocomplete="off">
+              <label class="btn btn-outline-primary" for="Gender" id="Gender">Female</label>
+            </div>
+          </div>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-primary" type="submit" onclick='alert("You are almost there!")';>Generate Akan Name</button>
+          </div>
         </div>
-
       </div>
-
     </form>
   </body>
 </html>
