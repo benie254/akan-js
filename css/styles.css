@@ -22,8 +22,3 @@ body {
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) { ... }
-
-.background-image {
-  width= 1000px;
-  height = 800px;
-}
